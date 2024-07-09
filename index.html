@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mragank - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mragank's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="violet">Mragank</span>,
+                <div>i am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1> Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="sp.png" class="sp" alt="">
+                    <div class="verticalTitle">
+                        Intern Technical Support (July 2023 - Sept 2023)
+                    </div>
+                    <div class="verticalDesc">
+                        Provided technical support on the Benchmark Email platform and for
+                        various web-related issues, including troubleshooting HTML/CSS/JS
+                        code, resolving DNS configuration problems, and optimizing website
+                        performance also developed Sign-up forms and Landing pages using HTML, CSS, and
+                        JavaScript, focusing on clean, responsive design and user-friendly
+                        interfaces.
+                        
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Front-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
