@@ -78,7 +78,7 @@ nav ul li a:hover {
 .secondSection{
     max-width: 80vw;
     margin: auto;
-    height: 80vh;
+    height: 92vh;
 }
 
 .secondSection h1{
@@ -104,7 +104,7 @@ hr{
     height: 80px;
     width:1px;
     background-color: white;
-    margin: 0 100px;
+    margin:0 200px ;
 }
 .sp{
     width: 68px;
@@ -114,14 +114,14 @@ hr{
     left: -34px;
 }
 
-.verticalTitle{
+.verticalTitle1{
     position: relative;
     top: 7px;
     left: -91px;
     width: 197px;
 }
 
-.verticalDesc{
+.verticalDesc1{
     position: relative;
     top: 20px;
     left: -96px;
@@ -130,3 +130,66 @@ hr{
     color: grey;
     text-align: justify;
 }
+
+.verticalTitle2{
+    position: relative;
+    top: -2px;
+    left: -100px;
+    width: 222px;
+    text-align: center;
+}
+
+.verticalTitle3{
+    position: relative;
+    top: 7px;
+    left: -125px;
+    width: 266px;
+    text-align: center;
+}
+
+.ts{
+    width: 98px;
+    height: auto;
+    position: relative;
+    top: -75px;
+    left: -48px;
+}
+
+.verticalDesc2{
+    position: relative;
+    top: 11px;
+    left: -101px;
+    width: 229px;
+    font-size: small;
+    color: grey;
+    text-align: justify;
+}
+
+.verticalDesc3{
+    position: relative;
+    top: 12px;
+    left: -122px;
+    width: 260px;
+    font-size: small;
+    color: grey;
+    text-align: justify;
+}
+
+.wd{
+    width: 74px;
+    height: auto;
+    position: relative;
+    top: -76px;
+    left: -38px;
+}
+
+footer{
+    background-color:#030305;
+    height: 250px;
+}
+
+.footer{
+    display: flex;
+    padding: 45px 104px;;
+}
+
