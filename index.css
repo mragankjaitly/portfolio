@@ -43,7 +43,6 @@ nav ul li a {
 
 nav ul li a:hover {
     color: rgb(100, 100, 238);
-    font-size: 1.1rem;
 }
 
 .left {
@@ -97,7 +96,7 @@ hr {
     border: 0;
     background: rgb(34, 34, 99);
     height: 2.5px;
-    margin: 40px 84px;
+    margin: 78px 84px;
 }
 
 .secondSection .box {
