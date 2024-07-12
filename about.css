@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(0, 0, 42);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(17, 17, 63);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    
+}
+
+.nav-div .left-top{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.nav-top-text{
+    margin-top: 25px;
+}
