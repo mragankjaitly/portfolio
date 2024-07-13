@@ -35,8 +35,40 @@ body {
     color: white;
 }
 
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle img{
+    width:40px;
+}
+
 .left-middle{
     height: 10px;
     padding-top:10px ;
     margin-left: 25px;
+}
+
+.left-middle ul{
+    list-style: none;
+    display: flex;
+}
+
+.left-middle img {
+    margin: 0 5px;
+    
+}
+
+.right-middle{
+    padding-top: 10px;
+}
+
+.right-middle ul{
+    display:flex;
+    list-style: none;
+}
+
+.right-middle img{
+    margin: 0 5px;
 }
