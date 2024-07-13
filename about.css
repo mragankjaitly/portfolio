@@ -20,6 +20,27 @@ body {
     
 }
 
+.top{
+    display:flex;
+    justify-content: space-between;
+}
+
+.right-top{
+    margin-right: 25px;
+}
+
+.nav-top-right-text{
+    padding-top: 25px;
+    margin-left: 25px;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.nav-top-right-text a{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-div .left-top{
     margin-left: 25px;
     font-size: x-large;
@@ -28,6 +49,7 @@ body {
 
 .nav-top-text{
     padding-top:25px ;
+    
 }
 
 .nav-top-text a{
@@ -41,7 +63,7 @@ body {
 }
 
 .middle img{
-    width:40px;
+    width:35px;
 }
 
 .left-middle{
@@ -62,6 +84,7 @@ body {
 
 .right-middle{
     padding-top: 10px;
+    margin-right: 25px;
 }
 
 .right-middle ul{
