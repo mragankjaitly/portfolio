@@ -16,7 +16,7 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 170px;
     
 }
 
@@ -94,4 +94,28 @@ body {
 
 .right-middle img{
     margin: 0 5px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.bottom-center{
+    margin: 10px;
+    font-size: large;
+}
+
+.bottom-center a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom ul li{
+    margin: 0 15px;
 }
