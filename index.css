@@ -59,6 +59,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 384px;
 }
 
 .firstSection>div {
