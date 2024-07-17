@@ -119,3 +119,7 @@ body {
 .bottom ul li{
     margin: 0 15px;
 }
+
+.first-section{
+    align-content: center;
+}
