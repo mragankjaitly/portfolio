@@ -123,3 +123,17 @@ body {
 .first-section{
     align-content: center;
 }
+
+.self-image {
+    width: 216px; /* Adjust to desired size */
+    height: 216px; /* Match width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image fits without distortion */
+    border: 2px solid #ccc; /* Optional: Add a border */
+}
+
+.image-self {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
