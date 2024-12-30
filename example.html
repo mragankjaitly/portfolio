@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: repeat(2, auto);
+            gap: 10px;
+            width: 100vw;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .cell {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+        }
+
+        .cell img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        /* For first row */
+        .row-1 .text-left {
+            order: 1;
+        }
+
+        .row-1 .image-left {
+            order: 0;
+        }
+
+        /* For second row */
+        .row-2 .text-left {
+            order: 0;
+        }
+
+        .row-2 .image-left {
+            order: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Row 1 -->
+        <div class="cell row-1">
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+            
+        </div>
+        <div class="cell row-1">
+            <p class="text-left">Text for Row 2</p>
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+        </div>
+
+        <!-- Row 2 -->
+        <div class="cell row-2">
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+            <p class="text-left">Text for Row 3</p>
+        </div>
+        <div class="cell row-2">
+            <p class="text-left">Text for Row 4</p>
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+        </div>
+
+        <!-- Row 3 -->
+        <div class="cell row-3">
+            <p class="text-left">Text for Row 5</p>
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+        </div>
+        <div class="cell row-3">
+            <img src="https://via.placeholder.com/50" alt="Placeholder" class="image-left">
+            <p class="text-left">Text for Row 6</p>
+        </div>
+    </div>
+</body>
+</html>
