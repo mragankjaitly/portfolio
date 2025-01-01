@@ -4,18 +4,26 @@
 }
 
 body {
-    background-color: rgb(0, 0, 42);
+    background-color: rgb(248 203 116);
     color: white;
     font-family: "Poppins", sans-serif;
     padding-top: 110px;
 }
+
+/* nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(17, 17, 63);
+} */
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 70px;
-    background-color: rgb(17, 17, 63);
+    background-color: black;
 }
 
 .nav {
@@ -63,7 +71,8 @@ nav ul li a:hover {
 }
 
 .firstSection>div {
-    width: 30%;
+    width: 50%;
+    padding-left: 280px;
 }
 
 .leftSection {
@@ -75,12 +84,20 @@ nav ul li a:hover {
     width: 90%;
 }
 
-.violet {
+/* .violet {
     color: rgb(149, 74, 219);
+} */
+
+.violet{
+    color: black;
 }
 
-#element {
+/* #element {
     color: rgb(149, 74, 219);
+} */
+
+#element {
+    color: black;
 }
 
 .secondSection {
@@ -93,15 +110,22 @@ nav ul li a:hover {
     font: size 1.2rem;
 }
 
-hr {
+/* hr {
     border: 0;
     background: rgb(34, 34, 99);
+    height: 2.5px;
+    margin: 78px 84px;
+} */
+
+hr {
+    border: 0;
+    background: black;
     height: 2.5px;
     margin: 78px 84px;
 }
 
 .secondSection .box {
-    background: white;
+    background: black;
     width: 80vw;
     height: 3px;
     margin: 80px 0;
@@ -111,7 +135,7 @@ hr {
 .secondSection .vertical {
     height: 80px;
     width: 1px;
-    background-color: white;
+    background-color: black;
     margin: 0 200px;
 }
 
@@ -128,6 +152,7 @@ hr {
     top: 7px;
     left: -91px;
     width: 197px;
+    color: black;
 }
 
 .verticalDesc1 {
@@ -136,7 +161,7 @@ hr {
     left: -96px;
     width: 213px;
     font-size: small;
-    color: grey;
+    color: #795000;
     text-align: justify;
 }
 
@@ -146,6 +171,8 @@ hr {
     left: -100px;
     width: 222px;
     text-align: center;
+    color: black;
+
 }
 
 .verticalTitle3 {
@@ -154,6 +181,7 @@ hr {
     left: -125px;
     width: 266px;
     text-align: center;
+    color: black;
 }
 
 .ts {
@@ -170,7 +198,7 @@ hr {
     left: -101px;
     width: 229px;
     font-size: small;
-    color: grey;
+    color: #795000;
     text-align: justify;
 }
 
@@ -180,7 +208,7 @@ hr {
     left: -122px;
     width: 260px;
     font-size: small;
-    color: grey;
+    color: #795000;
     text-align: justify;
 }
 
