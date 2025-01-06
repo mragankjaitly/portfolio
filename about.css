@@ -137,3 +137,11 @@ body {
     justify-content: center;
     margin-top: 100px;
 }
+
+.sp {
+    width: 68px;
+    height: auto;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
