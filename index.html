@@ -14,6 +14,11 @@
 </head>
 
 <body>
+    <div id="welcome-screen">
+        <div class="loader"></div>
+    </div>
+
+    <div id="main-content">
     <header>
         <nav class="nav">
             <div class="left"><a href="index.html">Mragank's Portfolio</a></div>
@@ -121,13 +126,26 @@
     </footer>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
+    <!-- <script>
         var typed = new Typed('#element', {
             strings: ['Web Developer','Automation Engineer', 'Front-end Developer'],
             typeSpeed: 50,
         });
-    </script>
-
+    </script> -->
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Automation Engineer', 'Front-end Developer'], // Texts to type
+          typeSpeed: 50, // Typing speed
+          backSpeed: 30, // Speed of deleting text
+          loop: true, // Makes the typing animation infinite
+          backDelay: 1000, // Delay before starting to delete text
+        });
+      </script>
+      
+    </div>
+    
+</div>
 </body>
 
+<script src="animation.js"></script>
 </html>

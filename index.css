@@ -234,3 +234,76 @@ footer {
 .footer > div{
     width: 250px;
 }
+
+#main-content {
+    display: none; /* Initially hidden */
+    opacity: 0;    /* Initially invisible */
+    transition: opacity 1s ease; /* Smooth fade-in transition */
+  }
+  
+/* Fullscreen Welcome Screen */
+#welcome-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* Background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 1s ease; /* Smooth fade-out transition */
+    z-index: 9999;
+  }
+  
+  /* Animation Text */
+  .welcome-animation h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .welcome-animation p {
+    color: #bdc3c7;
+    font-size: 1.5rem;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+
+  }
+  
+  .loader {
+    height: 45px; /* Set the eye size to 45px */
+    aspect-ratio: 2; /* Maintain width-to-height ratio */
+    background:
+      radial-gradient(farthest-side, #000 20%, #0000 22%) 0 0 / 50% 100%, /* Adjust gradient size */
+      radial-gradient(50% 100% at 50% 160%, #fff 95%, #0000) 0 0 / 50% 50%,
+      radial-gradient(50% 100% at 50% -60%, #fff 95%, #0000) 0 100% / 50% 50%;
+    background-repeat: repeat-x;
+    -webkit-mask: radial-gradient(50% 100%, #000 95%, #0000) 0 100% / 50% 0% repeat-x;
+    animation: l3 1s infinite alternate ease-in;
+  }
+  
+  @keyframes l3 {
+    0%, 70% {
+      -webkit-mask-size: 50% 100%; /* Eye mask size */
+    }
+    85% {
+      -webkit-mask-size: 50% 0%; /* Shrink mask */
+    }
+    100% {
+      -webkit-mask-size: 50% 100%; /* Restore mask size */
+    }
+  }
+  
+
+  /* new Animation */
+
+ 
