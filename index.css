@@ -10,14 +10,6 @@ body {
     padding-top: 110px;
 }
 
-/* nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70px;
-    background-color: rgb(17, 17, 63);
-} */
-
 nav {
     display: flex;
     justify-content: space-around;

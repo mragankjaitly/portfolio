@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -27,17 +27,34 @@
         </nav>
     </header>
 
-    <div class="construction">
-        <span id="element"></span>
-    </div>
+    <div class="center">
+        <div class="flip-container" onclick="flipCard()">
+          <div class="flipper">
+            <div class="front">
+              <!-- Front content (e.g., image, text) -->
+              <p>Click here to contact me!</p>
+            </div>
+            <div class="back">
+              <!-- Back content (e.g., another image, text) -->
+              <p><a href="mailto:mragankjaitlybly@gmail.com" class="click"><img src="gmail-1162901_1280 (1).webp" alt=""
+                    class="image"></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <div class="construction">
+        <span id="element"></span>
+    </div> -->
+
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
             strings: ['Stay tuned! This page is still cooking in the development oven.'],
             typeSpeed: 50,
         });
-    </script>
+    </script> -->
 </body>
+<script src="contact.js"></script>
 
 </html>
