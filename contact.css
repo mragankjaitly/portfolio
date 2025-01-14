@@ -96,6 +96,7 @@ nav ul li a:hover {
     font-weight: bold;
     padding: 0 10px;
     border-radius: 15px;
+    cursor: pointer;
   }
   
   .front {
