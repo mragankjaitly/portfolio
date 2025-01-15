@@ -4,10 +4,9 @@
 }
 
 body {
-    background-color: rgb(248 203 116);
+    background-color: rgb(248, 203, 116);
     color: white;
     font-family: "Poppins", sans-serif;
-    padding-top: 110px;
 }
 
 nav {
@@ -16,10 +15,6 @@ nav {
     align-items: center;
     height: 70px;
     background-color: black;
-}
-
-.nav {
-    overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
@@ -51,27 +46,16 @@ nav ul li a {
     color: white;
 }
 
-.construction {
-    font-size: xx-large;
-    width: 506px;
-    height: 150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .container {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -100px;
     background-color: black;
     overflow: hidden;
-    position: relative;
+    cursor: pointer;
 }
 
 .hidden-text {
@@ -84,27 +68,30 @@ nav ul li a {
     color: black;
     z-index: 1;
     text-align: center;
-    background: rgb(248 203 116);
+    background: rgb(248, 203, 116);
     clip-path: circle(0% at 0 0);
-    transition: clip-path 0.1s ease-out;
+    transition: clip-path 0.3s ease-out;
     font-size: xx-large;
     font-family: monospace;
 }
 
-.highlight {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 2;
+.container.hidden {
+    background: rgb(248, 203, 116);
+    color: black;
 }
 
-h1,
-p {
-    z-index: 2;
-    position: relative;
+.content-below {
+    padding: 20px;
 }
 
-.apple{
-    
+.content-below p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: black;
+}
+
+.hr1{
+    background-color: black;
+    height: 10px;
 }
